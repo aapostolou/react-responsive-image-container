@@ -50,20 +50,24 @@ const src = srcSet[0].path
 <details>
 <summary>HTML Result</summary>
 
-```
+```html
 <div class="responsve-image-container much-responsive">
-    <img srcset="https://via.placeholder.com/1920 1920w,
-                 https://via.placeholder.com/1200 1200w,
-                 https://via.placeholder.com/900 900w,
-                 https://via.placeholder.com/600 600w,
-                 https://via.placeholder.com/480 480w,
-                 https://via.placeholder.com/300 300w"
-         sizes="(min-width: 1366px) 300px,
-                (min-width: 1024px) 33vw,
-                (min-width: 768px) 75vw,
-                (min-width: 0) 100vw"
-         src="https://via.placeholder.com/1920"
-         loading="lazy">
+  <img
+    srcset="
+      https://via.placeholder.com/1920 1920w,
+      https://via.placeholder.com/1200 1200w,
+      https://via.placeholder.com/900   900w,
+      https://via.placeholder.com/600   600w,
+      https://via.placeholder.com/480   480w,
+      https://via.placeholder.com/300   300w
+    "
+    sizes="(min-width: 1366px) 300px,
+           (min-width: 1024px) 33vw,
+           (min-width: 768px) 75vw,
+           (min-width: 0) 100vw"
+    src="https://via.placeholder.com/1920"
+    loading="lazy"
+  />
 </div>
 ```
 
