@@ -49,6 +49,7 @@ const src = srcSet[0].path
 
 <details>
 <summary>HTML Result</summary>
+
 ```
 <div class="responsve-image-container much-responsive">
     <img srcset="https://via.placeholder.com/1920 1920w,
@@ -65,6 +66,7 @@ const src = srcSet[0].path
          loading="lazy">
 </div>
 ```
+
 </details>
 
 ## Props\*
